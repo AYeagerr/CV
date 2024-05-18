@@ -97,32 +97,6 @@
 %debug page outer frames
 %\usepackage{showframe}
 
-
-% job listing environments
-\newenvironment{jobshort}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    }
-    {
-    }
-
-\newenvironment{joblong}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
-    }
-    {
-    \end{itemize}
-    \end{minipage}    
-    }
-
-
-
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
 %----------------------------------------------------------------------------------------
@@ -142,12 +116,12 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{Abdulrhman Mohamed Gomaa} \\[7.5pt]
+\href{https://github.com/AYeagerr}{\raisebox{-0.05\height}\faGithub\ AYeagerr} \ $|$ \ 
+\href{https://www.linkedin.com/in/ayeager13/}{\raisebox{-0.05\height}\faLinkedin\ ayeager13} \ $|$ \ 
+\href{https://ayeagerr.github.io/Portfolio/}{\raisebox{-0.05\height}\faGlobe \ mysite} \ $|$ \ 
+\href{mailto:abdulrhman.mohamed026@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ email} \ $|$ \ 
+\href{tel:+201023232234}{\raisebox{-0.05\height}\faMobile \ +201023232234} \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -156,59 +130,82 @@
 
 %Interests/ Keywords/ Summary
 \section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+A proactive second-year Computer Science student at the Arab Academy for Science, 
+Technology & Maritime Transport. I am deeply engaged in enhancing my skills across 
+various programming languages and technologies, with a particular focus on 
+developing practical solutions in cybersecurity, web development, and software 
+engineering. My role as a team leader in multiple projects highlights my ability to 
+manage and steer diverse teams toward achieving exceptional outcomes, 
+demonstrating strong leadership and effective communication skills. 
 
-%Experience
-\section{Work Experience}
-
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
-
-
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
-\end{joblong}
-  
 %Projects
 \section{Projects}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+\textbf{SecurifyScan} & \hfill  \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Developed a tool for detecting vulnerabilities in websites, enhancing cybersecurity measures.}  \\
+
+\textbf{ByteQuest} & \hfill  \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Developed "ByteQuest", a cybersecurity quiz game using PyQt5. This educational tool enhances learning through interactive quizzes on topics like Cyber Attacks, Computer Malware, and Cryptography. Features include dynamic score tracking, engaging visual and sound effects, and a user-friendly interface designed to make learning about cybersecurity engaging and effective.}  \\
+
+\textbf{StudyMile} & \hfill  \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Created a Java application to assist students with educational planning and progress tracking.}  \\
+
+\textbf{Tech Store Project 'Red'} & \hfill  \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Led the development of a full-stack e-commerce platform to support online tech sales.}  \\
+
+\textbf{StepUp E-Commerce Platform} & \hfill \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Built a comprehensive e-commerce platform with functionalities for product browsing, shopping cart management, and order processing. The platform includes robust admin features for inventory and user management.}  \\
 \end{tabularx}
+
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
+Computer Sciences at \textbf{Arab Academy for Science, Technology and Maritime Transport, Cairo} & \hfill  \\[3.75pt]
+2022 - 2026 (Expected) \\
+\normalsize \textbf{(GPA: 3.68/4.0)} \\ & \hfill  \\[3.75pt]
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
+High School Diploma at \textbf{Port Said British School, Cairo} \\
+2019 - 2021\\
+\normalsize \textbf{(Grade: 97.5)} \\
 
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
 \end{tabularx}
 
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
+%Achievements
+\section{Achievements}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Team Leadership} & \hfill \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Team Leader in multiple project-based courses, demonstrating leadership and project management skills.}  \\
+
+\textbf{Project Innovation} & \hfill \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Recognized for outstanding project innovation and implementation in Java and cybersecurity applications.}  \\
+
+\textbf{Best Project Award} & \hfill \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Awarded Best Project for a movie discussion app in a Software Engineering course, showcasing proficiency in application development and user engagement.}  \\
+
+\textbf{Programming Contest} & \hfill \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{First Place in College Team Qualifiers for \textbf{ECPC} (Egypt Collegiate Programming Contest), securing a spot to compete in the ACPC, which highlights strong analytical and coding skills in a competitive environment.}  \\
+\end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
 \section{Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+\textbf{Programming Skills} & \\
+Expert in: & \normalsize{HTML} \\
+Intermediate in: & \normalsize{C / C++, Java, Python, CSS, PHP, MySQL} \\
+Basic in: & \normalsize{JavaScript} \\[3.75pt]
+
+\textbf{General Skills} & \normalsize{MS Office, Communication Skills, Leadership Skills} \\[3.75pt]
+
+\textbf{Languages} & \\
+Arabic: & \normalsize{Mother Tongue} \\
+English: & \normalsize{Very good (Writing / Speaking / Listening)} \\
 \end{tabularx}
 
 \vfill
